@@ -18,14 +18,20 @@
       }
       
       .button {
-        transition-duration: 0.4s;
-        align-content: center;
+        background-color: #f4511e;
+        border: none;
+        color: white;
+        padding: 16px 32px;
         text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 1;
+        transition: 0.3s
+        
       }
       
       .button:hover {
-        background-color: #4CAF50; /* Green */
-        color: white;
+            opacity: 0.6
       }
 
 
@@ -79,6 +85,11 @@
         font-size: 25px;
         color: rgb(137, 99, 226);
         margin-bottom: 50px;
+      }
+
+      
+      .formore{
+        text-align: center;
       }
 
       .credit{
