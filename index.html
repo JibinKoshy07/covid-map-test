@@ -435,7 +435,8 @@
       showMapData("Total");
       function showMapData(stateName) {
         console.log(stateName);
-        fetch("https://api.covid19india.org/data.json")
+// 	      https://api.covid19india.org/data.json
+        fetch("https://api.covid19india.org/v4/min/data.min.json")
           .then((e) => {
             return e.json();
           })
